@@ -1,0 +1,19 @@
+# This configuration is intended for development purpose, it's **your** responsibility to harden it for production
+name: myapp
+services:
+  mariadb:
+    extends:
+      file: ./mariadb.yml
+      service: mariadb
+  redis:
+    extends:
+      file: ./redis.yml
+      service: redis
+  kafka:
+    extends:
+      file: ./kafka.yml
+      service: kafka
+  zookeeper:
+    extends:
+      file: ./kafka.yml
+      service: zookeeper
