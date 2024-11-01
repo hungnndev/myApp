@@ -1216,11 +1216,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>snapshots</id>
-            <url>http://localhost:8887/</url>
+            <url>https://08b8-118-70-67-134.ngrok-free.app</url>
         </snapshotRepository>
         <repository>
             <id>releases</id>
-            <url>http://localhost:8888/</url>
+            <url>https://08b8-118-70-67-134.ngrok-free.app</url>
         </repository>
     </distributionManagement>
 </project>
