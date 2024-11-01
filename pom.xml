@@ -1212,4 +1212,15 @@
             </build>
         </profile>
     </profiles>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id/>
+            <url/>
+        </snapshotRepository>
+        <repository>
+            <id/>
+            <url/>
+        </repository>
+    </distributionManagement>
 </project>
