@@ -1215,12 +1215,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>release</id>
-            <url>http://localhost:8888</url>
+            <id>snapshots</id>
+            <url>http://localhost:8887/</url>
         </snapshotRepository>
         <repository>
-            <id>snapshot</id>
-            <url>http://localhost:8887</url>
+            <id>releases</id>
+            <url>http://localhost:8888/</url>
         </repository>
     </distributionManagement>
 </project>
